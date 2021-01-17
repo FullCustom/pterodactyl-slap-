@@ -1,0 +1,9 @@
+/* line 1 */
+body {
+  font-family: Verdana;
+  font-size: 10pt;
+}
+canvas {
+    border: 2px solid #0B610B;
+    background-color: #2E2E2E;
+}
