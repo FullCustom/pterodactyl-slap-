@@ -1,0 +1,11 @@
+---
+ deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/fullcdhk/public_html/slap
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R javascripts $DEPLOYPATH
+    - /bin/cp -R root $DEPLOYPATH
+    - /bin/cp -R sounds $DEPLOYPATH
+    - /bin/cp -R stylessheets $DEPLOYPATH
+    # My God This is Garbage Code
